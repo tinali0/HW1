@@ -1,3 +1,4 @@
+# Author: Xiangting Li xzl5423@psu.edu
 gradepoint1 = input("Enter your course 1 letter grade: ")
 credit1 = input("Enter your course 1 credit: ")
 
@@ -19,9 +20,9 @@ def grade(gradepoint):
   elif gradepoint == 'D' or gradepoint == 'd':
     return 1.0
   elif gradepoint == 'F' or gradepoint == 'f':
-    return 0.00
+    return 0.0
   else:
-    return 0.00
+    return 0.0
   
   
 grade1 = grade(gradepoint1)
